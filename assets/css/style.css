@@ -36,5 +36,24 @@ body {
 }
 
 #sections-menu, #logo {
-    line-height: 85px;
+    line-height: 75px;
+}
+
+#sections-menu a:hover {
+    border-bottom: 1px solid;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg');
+    
 }

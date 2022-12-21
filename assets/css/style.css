@@ -16,3 +16,25 @@ body {
     font-size: 280%;
     letter-spacing: 2px;
 }
+
+/* navigation links */
+
+#sections-menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#sections-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#sections-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#sections-menu, #logo {
+    line-height: 85px;
+}

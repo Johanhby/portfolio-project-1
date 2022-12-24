@@ -15,7 +15,7 @@ body {
     float: left;
     font-size: 280%;
     letter-spacing: 2px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 /* navigation links */
@@ -73,4 +73,30 @@ body {
     height: 200px;
     background-color: rgba(245, 39, 63, 0.8);
     position: absolute;
+}
+
+/* roots section */
+
+#roots {
+    height: 400px;
+}
+
+#left-roots {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-roots {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: blue;
+}
+
+#center-roots {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
 }

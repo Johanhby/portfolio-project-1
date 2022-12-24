@@ -91,7 +91,6 @@ body {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: blue;
 }
 
 #center-roots {
@@ -99,4 +98,20 @@ body {
     width: 33%;
     margin: 0 auto;
     background-color: red;
+}
+
+#right-roots-content {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+}
+
+#left-roots-content {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+}
+
+#roots h2 {
+    text-align: center;
 }

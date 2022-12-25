@@ -157,38 +157,39 @@ body {
 #starters {
     display: inline-block;
     width: 33.333%;
-    background-color: red;
+    background-color: rgba(21, 221, 7, .4);
 }
 
 #main-courses {
     display: inline-block;
     width: 33.333%;
-    background-color: rgb(0, 217, 255);
+    background-color: rgba(255, 255, 255, .4);
 }
 
 #deserts {
     display: inline-block;
     width: 33.333%;
-    background-color: blue;
+    background-color: rgba(228, 6, 6, .4);
 }
 
 #wine {
     display: inline-block;
     width: 33.333%;
-    background-color: rgb(15, 233, 40);
+    background-color: rgba(21, 221, 7, .4);
 }
 
 #beer-cider {
     display: inline-block;
     width: 33.333%;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, .4);
 }
 
 #non-alcoholics {
     display: inline-block;
     width: 33.333%;
-    background-color: rgb(225, 255, 0);
+    background-color: rgba(228, 6, 6, .4);
 }
 
+/* News letter signup */
 
 

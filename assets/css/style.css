@@ -97,7 +97,22 @@ body {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: red;
+}
+
+#center-roots-bg {
+    background: url('../images/center-image5.webp') no repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#center-roots-container {
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 #right-roots-content {
@@ -110,8 +125,39 @@ body {
     width: 60%;
     float: right;
     line-height: 20px;
+    height: 100%;
 }
 
 #roots h2 {
     text-align: center;
+    margin: 30px 0;
+    font-size: 280%;
+}
+
+/* Food & Drinks section */
+
+#food-menu {
+    width: 50%;
+    float: left;
+    margin-top: 90px;
+    height: 400px;
+    text-align: center;
+}
+
+#drinks-menu {
+    width: 50%;
+    float: right;
+    margin-top: 90px;
+    height: 400px;
+    text-align: center;
+}
+
+#starters {
+    width: 33.333%;
+    background-color: red;
+}
+
+#main-courses {
+    width: 33.333%;
+    background-color: blue;
 }

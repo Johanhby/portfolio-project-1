@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap'); 
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@ body {
     float: left;
     font-size: 280%;
     letter-spacing: 2px;
-    margin-left: 10px;
+    margin-left: 17px;
 }
 
 /* navigation links */
@@ -86,17 +87,17 @@ body {
 /* roots section */
 
 #roots {
-    height: 600px;
+    height: 550px;
 }
 
 #left-roots {
-    padding-top: 30px;
+    padding-top: 100px;
     width: 33%;
     float: left;
 }
 
 #right-roots {
-    padding-top: 30px;
+    padding-top: 100px;
     width: 33%;
     float: right;
 }
@@ -117,8 +118,8 @@ body {
     height: 400px;
     width: 400px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
-    border-width: 1px;
+    border-color: rgba(17, 14, 14, .5);
+    border-width: 10px;
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -148,7 +149,8 @@ body {
     margin-top: 90px;
     height: 600px;
     width: 100%;
-    background: url('../images/menu-image.jpg') no-repeat center center;
+    background: url('../images/menu2.jpg');
+    font-family: Fredericka the Great, sans-serif;
 }
 
 #food-menu {
@@ -158,6 +160,9 @@ body {
     height: 400px;
     text-align: center;
     display: flex;
+    color: white;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #drinks-menu {
@@ -167,6 +172,9 @@ body {
     height: 400px;
     text-align: center;
     display: flex;
+    color: white;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
     
 }
 
@@ -177,20 +185,20 @@ body {
     
 }
 
-#starters-ul {
-    list-style: none;
+.h3-ul > h3 {
+    text-decoration: underline;
 }
 
 #main-courses {
     display: inline-block;
     width: 20%;
-    
+    padding-left: 5%;
 }
 
 #deserts {
     display: inline-block;
     width: 20%;
-    
+    padding-left: 5%;
 }
 
 #wine {
@@ -203,13 +211,13 @@ body {
 #beer-cider {
     display: inline-block;
     width: 20%;
-    
+    padding-left: 5%;
 }
 
 #non-alcoholics {
     display: inline-block;
     width: 20%;
-    
+    padding-left: 5%;
 }
 
 /* News letter signup */

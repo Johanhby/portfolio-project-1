@@ -69,10 +69,18 @@ body {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    
     width: 300px;
     height: 200px;
-    background-color: rgba(245, 39, 63, 0.8);
+    
+    padding-top: 40px;
+    padding-left: 10px;
+    
+    background-color: rgba(245, 39, 63, .6);
     position: absolute;
+
+    bottom: 30px;
+    right: 150px;
 }
 
 /* zoom animation on loading page */
@@ -153,6 +161,11 @@ animation-fill-mode: forwards;
 
 /* Food & Drinks section */
 
+#food {
+    height: 100%;
+    background-image: url('../images/hero-image.jpg') no-repeat center center;
+}
+
 #food-menu {
     width: 50%;
     float: left;
@@ -174,38 +187,44 @@ animation-fill-mode: forwards;
 
 #starters {
     display: inline-block;
-    width: 33.333%;
-    background-color: rgba(21, 221, 7, .4);
+    width: 20%;
+    padding-left: 10%;
+    
+}
+
+#starters-ul {
+    list-style: none;
 }
 
 #main-courses {
     display: inline-block;
-    width: 33.333%;
-    background-color: rgba(255, 255, 255, .4);
+    width: 20%;
+    
 }
 
 #deserts {
     display: inline-block;
-    width: 33.333%;
-    background-color: rgba(228, 6, 6, .4);
+    width: 20%;
+    
 }
 
 #wine {
     display: inline-block;
-    width: 33.333%;
-    background-color: rgba(21, 221, 7, .4);
+    width: 20%;
+    padding-left: 10%;
+    
 }
 
 #beer-cider {
     display: inline-block;
-    width: 33.333%;
-    background-color: rgba(255, 255, 255, .4);
+    width: 20%;
+    
 }
 
 #non-alcoholics {
     display: inline-block;
-    width: 33.333%;
-    background-color: rgba(228, 6, 6, .4);
+    width: 20%;
+    
 }
 
 /* News letter signup */

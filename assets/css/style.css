@@ -75,6 +75,23 @@ body {
     position: absolute;
 }
 
+/* zoom animation on loading page */
+
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+
+/* zoom level for hero-image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
 /* roots section */
 
 #roots {
@@ -152,6 +169,7 @@ body {
     height: 400px;
     text-align: center;
     display: flex;
+    
 }
 
 #starters {
@@ -192,4 +210,7 @@ body {
 
 /* News letter signup */
 
-
+#contact {
+    text-align: center;
+    padding-top: 50px;
+}

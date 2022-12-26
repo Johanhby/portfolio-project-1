@@ -47,16 +47,16 @@ body {
 /* hero image and cover text */
 
 #hero-outer {
-    height: 400px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 400px;
+    height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg');
+    background: url('../images/hero-image4.jpg') no-repeat center center;
     
 }
 
@@ -86,7 +86,7 @@ body {
 /* roots section */
 
 #roots {
-    height: 400px;
+    height: 600px;
 }
 
 #left-roots {
@@ -108,16 +108,16 @@ body {
 }
 
 #center-roots-bg {
-    background: url('../images/menu-background.jpg') no-repeat center center;
+    background: url('../images/roots.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #center-roots-container {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -145,8 +145,10 @@ body {
 /* Food & Drinks section */
 
 #food {
-    height: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    margin-top: 90px;
+    height: 600px;
+    width: 100%;
+    background: url('../images/menu-image.jpg') no-repeat center center;
 }
 
 #food-menu {

@@ -83,23 +83,6 @@ body {
     right: 150px;
 }
 
-/* zoom animation on loading page */
-
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-
-/* zoom level for hero-image */
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-
 /* roots section */
 
 #roots {
@@ -125,7 +108,7 @@ animation-fill-mode: forwards;
 }
 
 #center-roots-bg {
-    background: url('../images/center-image5.webp') no repeat center center;
+    background: url('../images/menu-background.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -163,7 +146,7 @@ animation-fill-mode: forwards;
 
 #food {
     height: 100%;
-    background-image: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 }
 
 #food-menu {

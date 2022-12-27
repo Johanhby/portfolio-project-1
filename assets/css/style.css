@@ -163,7 +163,7 @@ body {
     text-align: center;
     display: flex;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -175,7 +175,7 @@ body {
     text-align: center;
     display: flex;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background-color: rgba(0, 0, 0, 0.5);
     
 }
@@ -183,7 +183,7 @@ body {
 #starters {
     display: inline-block;
     width: 20%;
-    padding-left: 10%;
+    padding-left: 15%;
     
 }
 
@@ -206,7 +206,7 @@ body {
 #wine {
     display: inline-block;
     width: 20%;
-    padding-left: 10%;
+    padding-left: 15%;
     
 }
 
@@ -251,6 +251,14 @@ body {
         width: 100%;
         float: left;
         padding: 0;
+        padding-top: 30px;
     }
 
+    #food {
+        height: 900px;
+}
+
+#food-menu, #drinks-menu {
+    height: 775px;
+    letter-spacing: normal;
 }

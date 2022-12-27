@@ -87,7 +87,7 @@ body {
 /* roots section */
 
 #roots {
-    height: 550px;
+    height: 500px;
 }
 
 #left-roots {
@@ -236,7 +236,7 @@ body {
 @media screen and (max-width: 1200px) {
     #roots {
         width: 65%;
-        height: 1200px;
+        height: 800px;
         margin: 0 auto;
     }
 

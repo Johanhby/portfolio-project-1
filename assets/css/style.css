@@ -152,7 +152,7 @@ body {
     height: 600px;
     width: 100%;
     background: url('../images/menu2.jpg');
-    font-family: Fredericka the Great, sans-serif;
+    font-family: "Fredericka the Great", sans-serif;
 }
 
 #food-menu {
@@ -256,9 +256,27 @@ body {
 
     #food {
         height: 900px;
+    }      
 }
 
 #food-menu, #drinks-menu {
     height: 775px;
     letter-spacing: normal;
+}
+
+/* footer */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: #3a3a3a;
 }

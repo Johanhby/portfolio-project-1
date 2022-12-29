@@ -261,11 +261,11 @@ body {
     #drinks-menu, #food-menu {
         height: 775px;
     }      
-}
 
-#food-menu, #drinks-menu {
+    #food-menu, #drinks-menu {
     height: 500px;
     letter-spacing: normal;
+    }
 }
 
 /* footer */

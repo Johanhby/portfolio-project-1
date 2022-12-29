@@ -26,7 +26,8 @@ A small yet carefully selected and descriptive menu of food and drinks offered t
 
 - __Contact & Booking__
 
-Contact detail inclding phone number for table booking and take-away orders, and email for feedback and special requests.
+Full booking information including: Full name, Phone number, Booking day and hour, number of persons and email for confirmation of booking.
+(Attribute to Prabinmagar for booking template: https://github.com/prabinmagar/restaurant-reservation-form/blob/master/index.html)
 
 - __News letter Signup__
 

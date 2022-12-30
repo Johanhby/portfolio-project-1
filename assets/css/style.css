@@ -254,8 +254,9 @@ body {
 #card-content {
     display: inline-block;
     text-align: center;
-    width: 33%;
-    height: 444px;
+    width: 15%;
+    height: 600px;
+    padding-left: 170px;
     
 }
 
@@ -279,7 +280,7 @@ form select, form input {
     display: inline-block;
     width: 400px;
     height: 300px;
-    bottom: 50px;
+    bottom: 330px;
     right: 50px;
     position: absolute;
 }
@@ -293,6 +294,22 @@ form select, form input {
     position: absolute;
     left: 0px;
     bottom: 2px;
+}
+
+#video-h2 {
+    position: absolute;
+    right: 150px;
+    bottom: 620px;
+}
+
+#border-solid {
+    width: 265px;
+    height: 280px;
+    border-style: solid;
+    position: absolute;
+    bottom: 330px;
+    left: 100px;
+    pointer-events: none;
 }
 
 /* media queries */

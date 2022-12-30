@@ -395,11 +395,26 @@ form select, form input {
         padding-right: 5px;
         width: 100%;
     }
+
+    #video {
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        bottom: 420px;
+        right: 50px;
+        position: absolute;
+    }
+
+    #video-h2 {
+        position: absolute;
+        right: 110px;
+        bottom: 620px;
+    }
 }
 
 /* for small screen sizes */
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     #sections-menu {
         font-size: medium;
         display: grid;
@@ -460,8 +475,47 @@ form select, form input {
         color: #3a3a3a;
         padding: 10px 0px 10px 75px;
     }
-}
 
+    #video {
+        display: inline-block;
+        width: 250px;
+        height: 125px;
+        bottom: 480px;
+        right: 50px;
+        position: absolute;
+    }
+
+    #video-h2 {
+        position: absolute;
+        right: 75px;
+        bottom: 620px;
+    }
+
+    #card-content {
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        height: 600px;
+        padding-left: 20px;
+        
+    }
+
+    #border-solid {
+        width: 200px;
+        height: 280px;
+        border-style: solid;
+        position: absolute;
+        bottom: 330px;
+        left: 10px;
+        pointer-events: none;
+    }
+
+    #booking > h2 {
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+
+}
 /* for very small screen sizes */
 
 @media screen and (max-width: 480px) {
@@ -537,6 +591,45 @@ form select, form input {
         font-size: 160%;
         color: #3a3a3a;
         padding: 10px 0px 10px 75px;
+    }
+
+    #card-content {
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        height: 600px;
+        padding-left: 20px;
+        
+    }
+
+    #border-solid {
+        width: 200px;
+        height: 280px;
+        border-style: solid;
+        position: absolute;
+        bottom: 330px;
+        left: 10px;
+        pointer-events: none;
+    }
+
+    #video {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        bottom: 510px;
+        right: 50px;
+        position: absolute;
+    }
+
+    #video-h2 {
+        position: absolute;
+        right: 50px;
+        bottom: 620px;
+    }
+
+    #booking > h2 {
+        margin-left: 40px;
+        margin-top: 10px;
     }
 
 }

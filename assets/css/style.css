@@ -58,7 +58,7 @@ body {
 
 #hero-image {
     height: 600px;
-    width: 100vw;
+    width: 100%;
     background: url('../images/hero-image4.jpg') no-repeat center center;
     
 }
@@ -94,19 +94,19 @@ body {
 
 #left-roots {
     padding-top: 100px;
-    width: 33%;
+    width: 33.333%;
     float: left;
 }
 
 #right-roots {
     padding-top: 100px;
-    width: 33%;
+    width: 33.333%;
     float: right;
 }
 
 #center-roots {
     padding-top: 30px;
-    width: 33%;
+    width: 33.333%;
     margin: 0 auto;
 }
 
@@ -224,7 +224,7 @@ body {
     padding-left: 5%;
 }
 
-/* News letter signup */
+/* Contact */
 
 #contact {
     text-align: center;
@@ -254,7 +254,6 @@ body {
 
 #card-content {
     display: inline-block;
-    float: left;
     text-align: center;
     width: 33%;
     height: 444px;
@@ -279,25 +278,29 @@ form select, form input {
 
 #video {
     display: inline-block;
-    float: right;
-    width: 33%;
+    width: 400px;
+    height: 300px;
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
 }
 
 #booking {
     position: relative;
 }
 
-#middle {
-    display: inline-block;
-    width: 33%;
-    margin: 0 auto;
+#iframe {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
 }
 
 /* media queries */
 
 /* for large to medium size screens */
 
-@media screen and (max-width: 1500px) and (min width: 1201px) {
+@media screen and (max-width: 1500px) and (min-width: 1201px) {
     #food {
         margin-top: 150px;
         height: 1100px;

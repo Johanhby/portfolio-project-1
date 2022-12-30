@@ -271,9 +271,10 @@ body {
 }
 
 form select, form input {
-    padding: 5px;
+    padding: 10px;
     display: block;
     font-size: 15px;
+    letter-spacing: 1px;
 }
 
 #video {
@@ -312,6 +313,34 @@ form select, form input {
     pointer-events: none;
 }
 
+/* Attribute to getcsssan.com (user Noor) for button design */
+
+#button {
+  align-items: center;
+  appearance: button;
+  background-color: #0c0e11;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Lato ,sans-serif;
+  font-size: 100%;
+  line-height: 0.6;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
 /* media queries */
 
 /* for large to medium size screens */
@@ -324,6 +353,8 @@ form select, form input {
         
     }
 }
+
+/* for medium to small size screens */
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
 
@@ -365,6 +396,8 @@ form select, form input {
         width: 100%;
     }
 }
+
+/* for small screen sizes */
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
     #sections-menu {
@@ -428,6 +461,8 @@ form select, form input {
         padding: 10px 0px 10px 75px;
     }
 }
+
+/* for very small screen sizes */
 
 @media screen and (max-width: 480px) {
     

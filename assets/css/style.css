@@ -245,9 +245,8 @@ body {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 2%;
     color: #3a3a3a;
+    padding: 10px 0px 10px 100px;
 }
 
 /* Booking section */
@@ -405,6 +404,12 @@ form select, form input {
         padding-right: 5px;
         width: 100%;
     }
+
+    .social-networks i {
+        font-size: 160%;
+        color: #3a3a3a;
+        padding: 10px 0px 10px 75px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -476,5 +481,10 @@ form select, form input {
         width: 100%;
     }
 
-    
+    .social-networks i {
+        font-size: 160%;
+        color: #3a3a3a;
+        padding: 10px 0px 10px 75px;
+    }
+
 }

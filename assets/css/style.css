@@ -10,7 +10,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 200;
-    width: 100vw;
+    width: 100%;
     margin: 0;
 }
 
@@ -23,27 +23,28 @@ body {
 
 /* navigation links */
 
-#sections-menu {
+.sections-menu {
     font-size: 100%;
     letter-spacing: 2px;
+
 }
 
-#sections-menu li {
+.sections-menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
 
-#sections-menu a {
+.sections-menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#sections-menu, #logo {
+.sections-menu, #logo {
     line-height: 75px;
 }
 
-#sections-menu a:hover {
+.sections-menu a:hover {
     border-bottom: 1px solid;
 }
 
@@ -60,6 +61,7 @@ body {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image4.jpg') no-repeat center center;
+    background-size: cover;
     
 }
 

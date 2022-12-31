@@ -52,4 +52,22 @@ Gives location of the restaurant as well as links to social media.
 
 ### Features to implement
 
-Large scale catering booking.
+- Large scale catering booking.
+
+<br>
+
+## Technologies
+- Navigation bar:
+  - Start button: Will take you back to the top of the page on click.
+  <br>
+  ![Screenshot](docs/start-readme.jpg)
+  - Our roots button: Will take you to the "about us" section retitled "Our roots".
+  <br>
+  ![Screenshot](docs/roots-readme.jpg)
+  - Food & Drinks button: Will take you to the Food and Drinks menu.
+  <br>
+  ![Screenshot](docs/menu-readme.jpg)
+  - Contact & Booking button: Will take you to the booking section for table booking and phone number to contact us.
+  <br>
+  
+

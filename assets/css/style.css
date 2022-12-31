@@ -19,6 +19,7 @@ body {
     font-weight: 200;
     width: 100%;
     margin: 0;
+    position: relative;
 }
 
 #logo {
@@ -323,6 +324,13 @@ form select, form input {
     pointer-events: none;
 }
 
+.phone-number {
+    font-size: medium;
+    font-weight: 800;
+    position: absolute;
+    bottom: 240px;
+    left: 140px;
+}
 /* Attribute to getcsssan.com (user Noor) for button design */
 
 #button {
@@ -370,6 +378,7 @@ form select, form input {
     #drinks-menu {
         height: 570px;
     }
+
 }
 
 /* for medium to small size screens */
@@ -428,6 +437,7 @@ form select, form input {
         right: 110px;
         bottom: 620px;
     }
+
 }
 
 /* for small screen sizes */

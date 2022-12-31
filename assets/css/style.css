@@ -7,6 +7,13 @@
     border: none;
 }
 
+#confirmation {
+    font-size: 75px;
+    top: 5px;
+    text-align: center;
+    
+}
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 200;
@@ -153,10 +160,11 @@ body {
 
 #food {
     margin-top: 90px;
-    height: 625px;
+    height: 600px;
     width: 100%;
     background: url('../images/menu2.jpg');
     font-family: "Fredericka the Great", sans-serif;
+    background-size: cover;
 }
 
 #food-menu {
@@ -168,7 +176,7 @@ body {
     display: flex;
     color: white;
     letter-spacing: 1px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.62);
 }
 
 #drinks-menu {
@@ -180,7 +188,7 @@ body {
     display: flex;
     color: white;
     letter-spacing: 1px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.62);
     
 }
 
@@ -350,9 +358,17 @@ form select, form input {
 @media screen and (max-width: 1500px) and (min-width: 1201px) {
     #food {
         margin-top: 150px;
-        height: 1100px;
+        height: 675px;
         width: 100%;
         
+    }
+
+    #food-menu {
+        height: 570px;
+    }
+    
+    #drinks-menu {
+        height: 570px;
     }
 }
 
@@ -381,19 +397,19 @@ form select, form input {
     }
 
     #food {
-        height: 1100px;
+        height: 1135px;
     }
 
     #food-menu {
         letter-spacing: 0px;
-        font-size: smaller;
+        font-size: large;
         padding-right: 5px;
         width: 100%;
     }
 
     #drinks-menu {
         letter-spacing: 0px;
-        font-size: smaller;
+        font-size: large;
         padding-right: 5px;
         width: 100%;
     }
@@ -460,14 +476,14 @@ form select, form input {
     
     #food-menu {
         letter-spacing: 0px;
-        font-size: smaller;
+        font-size: 14px;
         padding-right: 5px;
         width: 100%;
     }
 
     #drinks-menu {
         letter-spacing: 0px;
-        font-size: smaller;
+        font-size: 14px;
         padding-right: 5px;
         width: 100%;
     }

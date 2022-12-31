@@ -67,7 +67,29 @@ Gives location of the restaurant as well as links to social media.
   - Food & Drinks button: Will take you to the Food and Drinks menu.
   <br>
   ![Screenshot](docs/menu-readme.jpg)
-  - Contact & Booking button: Will take you to the booking section for table booking and phone number to contact us.
+  - Contact & Booking button: Will take you to the booking section for table booking and phone number set in the Maps inlay to contact us.
   <br>
+  ![Screenshot](docs/contact-booking-readme.jpg)
+  <br>
+
+## Code Validation
+- W3C CSS Validator Passed
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+- W3C HTML Validator Passed
+
+## Fixed Bugs
+- The body element of the html.index file had its width set to 100vw causing a horizontal scrollbar to appear. Setting the width to 100% fixed the issue.
+
+## Supported Devices
+- All device types are supported from mobile phones to tablets and computer screens small to large. This responsive design is accomplished through Media query parameters set at the respective widths of different devices.
+
+
   
 

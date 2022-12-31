@@ -23,7 +23,7 @@ Responsive sectional navigation through a navbar takes the user to the Menu, Con
 
 An image background conveying the herritage and setting the atmosphere of the restaurant and cuisine served here.
 
-![Screenshot](docs/hero-image-n.jpg)
+![Screenshot](docs/hero-image-readme.jpg)
 
 - __Our roots__
 

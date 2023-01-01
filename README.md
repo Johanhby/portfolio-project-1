@@ -83,6 +83,9 @@ Gives location of the restaurant as well as links to social media.
 ## Supported Devices
 - All device types are supported from mobile phones to tablets and computer screens small to large. This responsive design is accomplished through Media query parameters set at the respective widths of different devices.
 
+## Deployment
+- Go to github.com, log in to your account and select the repository you want to deploy. Click on settings and scroll down to Gibhub Pages and select "main" as a source option. Once that is done you click "save" and the site will go live, it might take a few minutes for that to happen but it should.
+
 
   
 

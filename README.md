@@ -67,20 +67,13 @@ Gives location of the restaurant as well as links to social media.
   - Food & Drinks button: Will take you to the Food and Drinks menu.
   <br>
   ![Screenshot](docs/menu-readme.jpg)
-  - Contact & Booking button: Will take you to the booking section for table booking and phone number set in the Maps inlay to contact us.
+  - Contact & Booking button: Will take you to the booking section for table booking and phone number set in the Maps inlay to contact us. Select day of booking, hour of that day, your full name, phone number and how many persons the booking is for.
   <br>
   ![Screenshot](docs/contact-booking-readme.jpg)
   <br>
 
 ## Code Validation
 - W3C CSS Validator Passed
-  <p>
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
 
 - W3C HTML Validator Passed
 
